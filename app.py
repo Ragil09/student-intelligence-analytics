@@ -472,7 +472,7 @@ elif "Distribution" in page:
         from scipy.stats import gaussian_kde
         num_cols = [c for c in ["StudyHours","Attendance","AssignmentCompletion",
                                  "OnlineCourses","Discussions","ExamScore"] if c in dff.columns]
-        #cool_cmap = plt.cm.get_cmap("cool")
+       
         cool_cmap = matplotlib.colormaps["cool"]
 
         fig, axes = plt.subplots(2, 3, figsize=(18, 10))
